@@ -15,7 +15,12 @@ accesskey="<accesskey>"
 secretkey="<secretkey>"
 environment="test"
 
+
 remote_script="https://sandbox-payments.open.money/layer"
+
+# For Production
+# remote_script="https://payments.open.money/layer"
+
 sample_data = dict()
 sample_data["amount"] = "12.00"
 sample_data["currency"] = "INR"
